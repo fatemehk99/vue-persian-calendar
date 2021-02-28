@@ -29,7 +29,7 @@
         <div v-if="currentDateChange">
           <div id="vpc_calendar">
             <!--DAYS HEADER-->
-            <div id="vpc_days-header">
+            <div id="vpc_days-header" @click="$event.stopPropagation()">
               <div>شنبه</div>
               <div>یکشنبه</div>
               <div>دوشنبه</div>
